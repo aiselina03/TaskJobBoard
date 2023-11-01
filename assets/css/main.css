@@ -475,7 +475,7 @@ header .header1 img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 53%;
+  width: 50%;
   height: 50vh;
   color: white;
   line-height: 40px;
@@ -520,7 +520,7 @@ header .header1 img {
   background-color: transparent;
 }
 .sec4 .looking .expert {
-  width: 47%;
+  width: 50%;
   height: 50vh;
   color: white;
   padding-left: 100px;
@@ -681,4 +681,155 @@ footer .footer2 {
 }
 footer .footer2 small a {
   color: #00d363;
+}
+
+@media only screen and (max-width: 1100px) {
+  .sec2 {
+    height: 90vh;
+  }
+  .sec2 .cards .card {
+    width: 26%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .sec2 {
+    height: 120vh;
+  }
+  .sec2 .cards .card {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .sec2 {
+    height: 200vh;
+  }
+  .sec2 .cards .card {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .sec3 .list .job .job1 {
+    width: 50%;
+  }
+  .sec3 .companies .tops .top {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .sec3 {
+    height: 280vh;
+  }
+  .sec3 .list .job .job1 {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .sec3 {
+    height: 335vh;
+  }
+  .sec3 .list .job {
+    height: 23vh;
+  }
+  .sec3 .list .job .job1 {
+    width: 85%;
+  }
+  .sec3 .companies .tops .top {
+    width: 40%;
+    height: 27vh;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .sec3 {
+    height: 350vh;
+  }
+  .sec3 .list .job {
+    height: 25vh;
+  }
+  .sec3 .list .job .job1 {
+    width: 90%;
+  }
+  .sec3 .companies .tops .top {
+    width: 40%;
+    height: 27vh;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .sec3 {
+    height: 420vh;
+  }
+  .sec3 .list .job {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+  }
+  .sec3 .list .job .job1 {
+    width: 100%;
+  }
+  .sec3 .companies .tops .top {
+    width: 80%;
+    height: 25vh;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .sec4 {
+    height: 180vh;
+  }
+  .sec4 .looking {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec4 .looking .job {
+    width: 100%;
+  }
+  .sec4 .looking .expert {
+    width: 87%;
+  }
+  .sec4 .test {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .sec4 .test .img {
+    width: 60%;
+  }
+  .sec4 .test .text {
+    width: 70%;
+  }
+  .sec4 .test .text h1 {
+    font-size: 25px;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .sec4 {
+    height: 200vh;
+  }
+  .sec4 .looking {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec4 .looking .job {
+    width: 100%;
+  }
+  .sec4 .looking .expert {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sec4 {
+    height: 200vh;
+  }
+  .sec4 .looking {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec4 .looking .job {
+    width: 100%;
+  }
+  .sec4 .looking .expert {
+    width: 78%;
+  }
 }/*# sourceMappingURL=main.css.map */
